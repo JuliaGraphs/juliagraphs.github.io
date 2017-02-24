@@ -9,5 +9,5 @@ t = @from p in pkgdb() begin
 
 
 for i in t
-       println("[$(i[2])]($(i[1]))")
+       println("- [$(i[1])]($(i[2]))")
        end
