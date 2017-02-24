@@ -23,7 +23,7 @@ for using and studying graphs.
 
 ## JuliaGraphs's packages include:
 
-- **LightGraphs.jl**: An optimized lightweight graphs package for Julia. 
+- **LightGraphs.jl**: An optimized lightweight graphs package for Julia.
 Implementations in Julia of standard Graphs algorithms and analytics.
 [code](https://github.com/JuliaGraphs/LightGraphs.jl)
 [docs](https://juliagraphs.github.io/LightGraphs.jl/latest/)
@@ -61,11 +61,21 @@ The current core maintainers are Seth Bromberger and James Fairbanks _02/23/2017
 
 # Related Packages
 
-- QuantEcon.jl
-- BayesNets.jl
-- TikzGraphs.jliu440
-- Metis.jl
-- TrafficAssignment.jl
-- GraphGLRM.jl
-- Bio.jl
+Here are some packages that are related to the packages maintained by JuliaGraphs.
+
+## Packages that REQUIRE LightGraphs
+
+- [git://github.com/sisl/BayesNets.jl.git](BayesNets)
+- [git://github.com/BioJulia/Bio.jl.git](Bio)
+- [https://github.com/mihirparadkar/GraphGLRM.jl.git](GraphGLRM)
+- [https://github.com/JuliaGraphs/GraphPlot.jl.git](GraphPlot)
+- [git://github.com/juliohm/ImageQuilting.jl.git](ImageQuilting)
+- [git://github.com/JuliaGraphs/LightGraphsExtras.jl.git](LightGraphsExtras)
+- [git://github.com/JuliaSparse/Metis.jl.git](Metis)
+- [git://github.com/abhijithanilkumar/NetworkViz.jl.git](NetworkViz)
+- [git://github.com/QuantEcon/QuantEcon.jl.git](QuantEcon)
+- [git://github.com/chkwon/RobustShortestPath.jl.git](RobustShortestPath)
+- [git://github.com/sisl/TikzGraphs.jl.git](TikzGraphs)
+- [git://github.com/chkwon/TrafficAssignment.jl.git](TrafficAssignment)
+- [https://github.com/dpsanders/TreeView.jl.git](TreeView)
 
