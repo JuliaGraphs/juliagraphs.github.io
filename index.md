@@ -78,3 +78,14 @@ Here are some packages that are related to the packages maintained by JuliaGraph
 - [TikzGraphs](https://github.com/sisl/TikzGraphs.jl)
 - [TrafficAssignment](https://github.com/chkwon/TrafficAssignment.jl)
 - [TreeView](https://github.com/dpsanders/TreeView.jl)
+
+
+# Gallery
+
+## Julio Hoffimann
+
+- Domain Problem
+- features of LG used
+- feature specific to julia used
+
+a glamorous pic that makes your work look awesome.
