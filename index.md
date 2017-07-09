@@ -83,6 +83,9 @@ Here are some packages that are related to the packages maintained by JuliaGraph
 
 
 # Gallery
+## JuliaCon 2017 LightGraphs.jl Talk
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MFD-qmApXl8" frameborder="0" allowfullscreen></iframe>
 
 ## Julio Hoffimann
 
