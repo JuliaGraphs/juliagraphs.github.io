@@ -27,6 +27,13 @@ for using and studying graphs.
 Implementations in Julia of standard Graphs algorithms and analytics.
 [code](https://github.com/JuliaGraphs/LightGraphs.jl)
 [docs](https://juliagraphs.github.io/LightGraphs.jl/latest/)
+  - **SimpleWeightedGraphs.jl**: An efficent implementation of simple graphs
+with weighted edges.
+[code](https://github.com/JuliaGraphs/SimpleWeightedGraphs.jl)
+  - **MetaGraphs.jl**: An implementation of graphs with graph, vertex, and
+edge metadata.
+[code](https://github.com/JuliaGraphs/MetaGraphs.jl)
+
 
 - **NetworkLayout.jl**: Layout algorithms for graphs and trees in pure Julia.
 [code](https://github.com/JuliaGraphs/NetworkLayout.jl)
@@ -39,9 +46,6 @@ Implementations in Julia of standard Graphs algorithms and analytics.
 
 - **D3GraphPlot.jl**: Graph visualization for Julia, using the [D3js](http://d3js.org) library.
 [code](https://github.com/JuliaGraphs/D3GraphPlot.jl)
-
-- **Networks.jl**: Additional graph flexibility for LightGraphs.
-[code](https://github.com/JuliaGraphs/Networks.jl)
 
 - **GraphVisualize.jl**: An alternative implementation of graph visualization.
 [code](https://github.com/JuliaGraphs/GraphVisualize.jl)
