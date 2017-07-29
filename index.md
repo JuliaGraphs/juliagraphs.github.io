@@ -63,7 +63,7 @@ edge metadata.
 
 The maintainers of the JuliaGraphs packages can be found at [Github People](https://github.com/orgs/JuliaGraphs/people). Each package has its own github page listing the contributions of individuals. The maintainers of these packages appreciate every contribution.
 
-The current core maintainers are Seth Bromberger and James Fairbanks _02/23/2017_.
+The current core maintainers are [Seth Bromberger](https://github.com/sbromberger), [James Fairbanks](https://github.com/jpfairbanks), and [Julio Hoffiman](https://github.com/juliohm).
 
 # Related Packages
 
