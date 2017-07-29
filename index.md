@@ -90,11 +90,3 @@ Here are some packages that are related to the packages maintained by JuliaGraph
 ## JuliaCon 2017 LightGraphs.jl Talk
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MFD-qmApXl8" frameborder="0" allowfullscreen></iframe>
-
-## Julio Hoffimann
-
-- Domain Problem
-- features of LG used
-- feature specific to julia used
-
-a glamorous pic that makes your work look awesome.
