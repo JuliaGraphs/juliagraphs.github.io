@@ -78,6 +78,7 @@ Here are some packages that are related to the packages maintained by JuliaGraph
 
 - [BayesNets](https://github.com/sisl/BayesNets.jl)
 - [Bio](https://github.com/BioJulia/Bio.jl)
+- [CausalInference](https://github.com/mschauer/CausalInference.jl)
 - [GraphGLRM](https://github.com/mihirparadkar/GraphGLRM.jl)
 - [GraphPlot](https://github.com/JuliaGraphs/GraphPlot.jl)
 - [ImageQuilting](https://github.com/juliohm/ImageQuilting.jl)
