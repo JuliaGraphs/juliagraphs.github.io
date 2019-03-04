@@ -92,6 +92,16 @@ Here are some packages that are related to the packages maintained by JuliaGraph
 
 
 # Gallery
+## JuliaCon 2018 LightGraphs.jl Talk
+
+### The JuliaGraphs ecosystem: build fast - don't break things
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=OZuQoxTPoyM" frameborder="0" allowfullscreen></iframe>
+
+### Graph Interfaces: bespoke graphs for every occasion
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=OD-BSn4FZ2A" frameborder="0" allowfullscreen></iframe>
+
 ## JuliaCon 2017 LightGraphs.jl Talk
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MFD-qmApXl8" frameborder="0" allowfullscreen></iframe>
