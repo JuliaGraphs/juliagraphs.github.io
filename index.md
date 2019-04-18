@@ -51,7 +51,9 @@ edge metadata.
 - **GraphVisualize.jl**: An alternative implementation of graph visualization.
 [code](https://github.com/JuliaGraphs/GraphVisualize.jl)
 
-- **LightGraphsFlows.jl**: Flow algorithms on top of LightGraphs.jl. [code](https://github.com/JuliaGraphs/LightGraphsFlows.jl)
+- **LightGraphsFlows.jl**: Flow algorithms on top of LightGraphs.jl.
+[code](https://github.com/JuliaGraphs/LightGraphsFlows.jl)
+[docs](https://juliagraphs.github.io/LightGraphsFlows.jl/latest/)
 
 - **LightGraphsMatching.jl**: Matching algorithms for LightGraphs.jl. [code](https://github.com/JuliaGraphs/LightGraphsMatching.jl)
 
