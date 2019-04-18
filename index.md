@@ -17,7 +17,7 @@ for using and studying graphs.
 
 <!-- - **Overview**: [presentation]() and [workshop](https://www.youtube.com/watch?v=nnL7yLMVu6c) from JuliaCon 2015 -->
 - **Code**: [github.com/JuliaGraphs](http://github.com/JuliaGraphs)
-- **Forum**: [Discourse](https://discourse.julialang.org/c/domain/Graphs)
+- **Forum**: [Discourse](https://discourse.julialang.org)
 
 # Overview of Packages
 
