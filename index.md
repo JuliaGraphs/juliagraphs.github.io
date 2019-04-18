@@ -8,7 +8,7 @@ title:  JuliaGraphs&#58; Graph packages for the Julia language
 It is free (open source) and supports Windows, OSX, and Linux. It has a familiar
 syntax, works well with external libraries, is fast, and has advanced language
 features like metaprogramming that enable interesting possibilities for
-Graphsimization software.
+Graphoptimization software.
 
 
 # What is JuliaGraphs?
@@ -17,7 +17,7 @@ for using and studying graphs.
 
 <!-- - **Overview**: [presentation]() and [workshop](https://www.youtube.com/watch?v=nnL7yLMVu6c) from JuliaCon 2015 -->
 - **Code**: [github.com/JuliaGraphs](http://github.com/JuliaGraphs)
-- **Forum**: [Discourse](https://discourse.julialang.org/c/domain/Graphs)
+- **Forum**: [Discourse](https://discourse.julialang.org)
 
 # Overview of Packages
 
@@ -80,7 +80,6 @@ edge metadata.
 - **Graph500.jl**:  Graph500 benchmarks written in Julia using LightGraphs .
 [code](https://github.com/JuliaGraphs/Graph500.jl)
 
-
 ## Plus some metadata repos including:
 
 - **JuliaGraphs-meta**: Forum for JuliaGraphs discussion - issues only.
@@ -103,6 +102,7 @@ Here are some packages that are related to the packages maintained by JuliaGraph
 
 - [BayesNets](https://github.com/sisl/BayesNets.jl)
 - [Bio](https://github.com/BioJulia/Bio.jl)
+- [CausalInference](https://github.com/mschauer/CausalInference.jl)
 - [GraphGLRM](https://github.com/mihirparadkar/GraphGLRM.jl)
 - [GraphPlot](https://github.com/JuliaGraphs/GraphPlot.jl)
 - [ImageQuilting](https://github.com/juliohm/ImageQuilting.jl)
@@ -117,6 +117,16 @@ Here are some packages that are related to the packages maintained by JuliaGraph
 
 
 # Gallery
+## JuliaCon 2018 LightGraphs.jl Talk
+
+### The JuliaGraphs ecosystem: build fast - don't break things
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=OZuQoxTPoyM" frameborder="0" allowfullscreen></iframe>
+
+### Graph Interfaces: bespoke graphs for every occasion
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=OD-BSn4FZ2A" frameborder="0" allowfullscreen></iframe>
+
 ## JuliaCon 2017 LightGraphs.jl Talk
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MFD-qmApXl8" frameborder="0" allowfullscreen></iframe>
