@@ -8,7 +8,7 @@ title:  JuliaGraphs&#58; Graph packages for the Julia language
 It is free (open source) and supports Windows, OSX, and Linux. It has a familiar
 syntax, works well with external libraries, is fast, and has advanced language
 features like metaprogramming that enable interesting possibilities for
-Graphsimization software.
+graph analysis and modeling software.
 
 
 # What is JuliaGraphs?
@@ -23,10 +23,27 @@ for using and studying graphs.
 
 ## JuliaGraphs's packages include:
 
+#### Main package:
+
 - **LightGraphs.jl**: An optimized lightweight graphs package for Julia.
 Implementations in Julia of standard Graphs algorithms and analytics.
-[code](https://github.com/JuliaGraphs/LightGraphs.jl)
-[docs](https://juliagraphs.github.io/LightGraphs.jl/latest/)
+[code](https://github.com/JuliaGraphs/LightGraphs.jl) / [docs](https://juliagraphs.github.io/LightGraphs.jl/latest/)
+
+#### More Algorithms:
+
+- **LightGraphsExtras.jl**: Additional functionality for LightGraphs.jl.
+[code](https://github.com/JuliaGraphs/LightGraphsExtras.jl)
+
+- **LightGraphsFlows.jl**: Flow algorithms on top of LightGraphs.jl.
+ [code](https://github.com/JuliaGraphs/LightGraphsFlows.jl) / [docs](https://juliagraphs.github.io/LightGraphsFlows.jl/latest/)
+
+- **LightGraphsMatching.jl**: Matching algorithms for LightGraphs.jl.
+ [code](https://github.com/JuliaGraphs/LightGraphsMatching.jl)
+
+- **CommunityDetection.jl**: Community Detection algorithms for LightGraphs.
+[code](https://github.com/JuliaGraphs/CommunityDetection.jl)
+
+#### More graph types:
 
 - **SimpleWeightedGraphs.jl**: An efficent implementation of simple graphs
 with weighted edges.
@@ -34,31 +51,36 @@ with weighted edges.
 
 - **MetaGraphs.jl**: An implementation of graphs with graph, vertex, and
 edge metadata.
-[code](https://github.com/JuliaGraphs/MetaGraphs.jl)
+[code](https://github.com/JuliaGraphs/MetaGraphs.jl) / [docs](https://juliagraphs.github.io/MetaGraphs.jl/latest/)
 
-- **NetworkLayout.jl**: Layout algorithms for graphs and trees in pure Julia.
-[code](https://github.com/JuliaGraphs/NetworkLayout.jl)
+- **StaticGraphs.jl**: Memory-efficient immutable LightGraphs.
+[code](https://github.com/JuliaGraphs/StaticGraphs.jl)
 
-- **LightGraphsExtras.jl**: Additional functionality for LightGraphs.jl.
-[code](https://github.com/JuliaGraphs/LightGraphsExtras.jl)
+#### Input/Output:
+
+- **GraphIO.jl**: Graph IO functionality for various formats.
+[code](https://github.com/JuliaGraphs/GraphIO.jl)
+
+- **SNAPDatasets.jl**: LightGraphs.jl-formatted graph files taken from the SNAP Datasets collection.
+[code](https://github.com/JuliaGraphs/SNAPDatasets.jl)
+
+#### Visualization:
 
 - **GraphPlot.jl**: Graph visualization for Julia.
 [code](https://github.com/JuliaGraphs/GraphPlot.jl)
 
-- **D3GraphPlot.jl**: Graph visualization for Julia, using the [D3js](http://d3js.org) library.
-[code](https://github.com/JuliaGraphs/D3GraphPlot.jl)
+- **NetworkLayout.jl**: Layout algorithms for graphs and trees in pure Julia.
+[code](https://github.com/JuliaGraphs/NetworkLayout.jl)
 
-- **GraphVisualize.jl**: An alternative implementation of graph visualization.
-[code](https://github.com/JuliaGraphs/GraphVisualize.jl)
+#### Other:
 
-- **LightGraphsFlows.jl**: Flow algorithms on top of LightGraphs.jl.
-[code](https://github.com/JuliaGraphs/LightGraphsFlows.jl)
-[docs](https://juliagraphs.github.io/LightGraphsFlows.jl/latest/)
+- **GraphDataFrameBridge.jl**: Tools for interoperability between DataFrame objects and LightGraphs and MetaGraphs objects
+[code](https://github.com/JuliaGraphs/GraphDataFrameBridge.jl)
 
-- **LightGraphsMatching.jl**: Matching algorithms for LightGraphs.jl. [code](https://github.com/JuliaGraphs/LightGraphsMatching.jl)
+- **Graph500.jl**:  Graph500 benchmarks written in Julia using LightGraphs .
+[code](https://github.com/JuliaGraphs/Graph500.jl)
 
 ## Plus some metadata repos including:
-
 
 - **JuliaGraphs-meta**: Forum for JuliaGraphs discussion - issues only.
 [code](https://github.com/JuliaGraphs/JuliaGraphs-meta)
