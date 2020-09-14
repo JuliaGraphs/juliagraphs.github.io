@@ -117,7 +117,18 @@ Here are some packages that are related to the packages maintained by JuliaGraph
 
 
 # Gallery
-## JuliaCon 2018 LightGraphs.jl Talk
+## JuliaCon 2020 Talks
+
+###  Building and Analyzing Graphs at Scale (Workshop)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K3z0kUOBy2Y" frameborder="0" allowfullscreen></iframe>
+
+###  Lessons learned on trait-based descriptions of graphs
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qhAe1PuWjRQ" frameborder="0" allowfullscreen></iframe>
+
+
+## JuliaCon 2018 LightGraphs.jl Talks
 
 ### The JuliaGraphs ecosystem: build fast - don't break things
 
@@ -127,6 +138,6 @@ Here are some packages that are related to the packages maintained by JuliaGraph
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OD-BSn4FZ2A" frameborder="0" allowfullscreen></iframe>
 
-## JuliaCon 2017 LightGraphs.jl Talk
+## JuliaCon 2017 LightGraphs.jl Talks
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MFD-qmApXl8" frameborder="0" allowfullscreen></iframe>
