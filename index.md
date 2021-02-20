@@ -35,7 +35,7 @@ Implementations in Julia of standard Graphs algorithms and analytics.
 [code](https://github.com/JuliaGraphs/LightGraphsExtras.jl)
 
 - **LightGraphsFlows.jl**: Flow algorithms on top of LightGraphs.jl.
- [code](https://github.com/JuliaGraphs/LightGraphsFlows.jl) / [docs](https://juliagraphs.github.io/LightGraphsFlows.jl/latest/)
+ [code](https://github.com/JuliaGraphs/LightGraphsFlows.jl) / [docs](https://juliagraphs.github.io/LightGraphsFlows.jl/stable)
 
 - **LightGraphsMatching.jl**: Matching algorithms for LightGraphs.jl.
  [code](https://github.com/JuliaGraphs/LightGraphsMatching.jl)
