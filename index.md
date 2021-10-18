@@ -25,9 +25,9 @@ for using and studying graphs.
 
 #### Main package:
 
-- **LightGraphs.jl**: An optimized lightweight graphs package for Julia.
+- **Graphs.jl**: An optimized lightweight graphs package for Julia.
 Implementations in Julia of standard Graphs algorithms and analytics.
-[code](https://github.com/JuliaGraphs/LightGraphs.jl) / [docs](https://juliagraphs.github.io/LightGraphs.jl/latest/)
+[code](https://github.com/JuliaGraphs/Graphs.jl) / [docs](https://juliagraphs.org/Graphs.jl/dev/)
 
 #### More Algorithms:
 
