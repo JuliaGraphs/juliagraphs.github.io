@@ -14,6 +14,4 @@ github_url    = "https://github.com/JuliaGraphs"
 generate_rss = false
 
 content_tag   = ""
-
-prepath = "juliagraphs.github.io" # only for fork
 +++
