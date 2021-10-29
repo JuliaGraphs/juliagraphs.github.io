@@ -31,8 +31,8 @@ for using and studying graphs.
 #### More Algorithms:
 
 - **LightGraphsExtras.jl**: Additional functionality for LightGraphs.jl. [code](https://github.com/JuliaGraphs/LightGraphsExtras.jl)
-- **GraphsFlows.jl**: Flow algorithms on top of LightGraphs.jl. [code](https://github.com/JuliaGraphs/GraphsFlows.jl) / [docs](https://juliagraphs.github.io/LightGraphsFlows.jl/latest/)
-- **LightGraphsMatching.jl**: Matching algorithms for LightGraphs.jl. [code](https://github.com/JuliaGraphs/LightGraphsMatching.jl)
+- **GraphsFlows.jl**: Flow algorithms on top of LightGraphs.jl. [code](https://github.com/JuliaGraphs/GraphsFlows.jl) / [docs](https://juliagraphs.org/GraphsFlows.jl/dev/)
+- **GraphsMatching.jl**: Matching algorithms for LightGraphs.jl. [code](https://github.com/JuliaGraphs/GraphsMatching.jl)
 - **CommunityDetection.jl**: Community Detection algorithms for LightGraphs. [code](https://github.com/JuliaGraphs/CommunityDetection.jl)
 
 #### More graph types:
