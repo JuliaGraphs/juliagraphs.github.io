@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{global_title}}</title>
+  <meta name="generator" content="Franklin.jl" />
+  <meta property="og:title" content="{{short_title}}" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="description" content="{{description}}" />
+  <meta property="og:description" content="{{description}}" />
+  <link rel="canonical" href="{{canonical_url}}" />
+  <meta property="og:url" content="{{canonical_url}}" />
+  <meta property="og:site_name" content="{{short_name}}" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:title" content="{{short_title}}" />
+  <script type="application/ld+json">
+  {
+    "description": "{{description}}",
+    "url":"{{canonical_url}}",
+    "@type":"WebSite",
+    "headline":"{{short_title}}",
+    "name":"{{short_name}}",
+    "@context":"https://schema.org"
+  }</script>
+
+  {{if hasmath}} {{insert head_katex.html }}     {{end}}
+  {{if hascode}} {{insert head_highlight.html }}   {{end}}
+
+  <!-- <link rel="stylesheet" href="/css/franklin.css"> -->
+  <!-- <link rel="stylesheet" href="/css/basic.css"> -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <style>
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    pointer-events: none;
+    cursor: default;
+  }
+  h4 {
+    color: #494949;
+  }
+  .header-anchor {
+        color: inherit;
+  }
+  .tight-list li p{
+    margin: 0;
+  }
+  </style>
+
+  <!-- <link rel="icon" href="/assets/favicon.png"> -->
+
+</head>
+<body>
+
+<div class="wrapper">
+  <header>
+    <h1><a href="{{canonical_url}}">{{short_name}}</a></h1>
+    <p>{{description}}</p>
+    <p class="view"><a href="{{github_url}}">View My GitHub Profile</a></p>
+  </header>
+  <section>
+
+<!-- Content appended here -->
