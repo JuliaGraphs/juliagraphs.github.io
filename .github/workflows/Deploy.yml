@@ -33,6 +33,7 @@ jobs:
     #   The last line should be `optimize()` though you may want to give it
     #   specific arguments, see the documentation or ?optimize in the REPL.
     - run: julia -e '
+            using Pkg; Pkg.add("Franklin");
             using Franklin;
             optimize(minify=false, prerender=false)'
     - name: Build and Deploy
