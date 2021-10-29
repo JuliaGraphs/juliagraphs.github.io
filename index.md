@@ -30,21 +30,21 @@ for using and studying graphs.
 
 #### More Algorithms:
 
-- **LightGraphsExtras.jl**: Additional functionality for LightGraphs.jl. [code](https://github.com/JuliaGraphs/LightGraphsExtras.jl)
-- **GraphsFlows.jl**: Flow algorithms on top of LightGraphs.jl. [code](https://github.com/JuliaGraphs/GraphsFlows.jl) / [docs](https://juliagraphs.org/GraphsFlows.jl/dev/)
-- **GraphsMatching.jl**: Matching algorithms for LightGraphs.jl. [code](https://github.com/JuliaGraphs/GraphsMatching.jl)
-- **CommunityDetection.jl**: Community Detection algorithms for LightGraphs. [code](https://github.com/JuliaGraphs/CommunityDetection.jl)
+- **LightGraphsExtras.jl**: Additional functionality for Graphs.jl. [code](https://github.com/JuliaGraphs/LightGraphsExtras.jl)
+- **GraphsFlows.jl**: Flow algorithms on top of Graphs.jl. [code](https://github.com/JuliaGraphs/GraphsFlows.jl) / [docs](https://juliagraphs.org/GraphsFlows.jl/dev/)
+- **GraphsMatching.jl**: Matching algorithms for Graphs.jl. [code](https://github.com/JuliaGraphs/GraphsMatching.jl)
+- **CommunityDetection.jl**: Community Detection algorithms for Graphs.jl. [code](https://github.com/JuliaGraphs/CommunityDetection.jl)
 
 #### More graph types:
 
 - **SimpleWeightedGraphs.jl**: An efficent implementation of simple graphs with weighted edges. [code](https://github.com/JuliaGraphs/SimpleWeightedGraphs.jl)
 - **MetaGraphs.jl**: An implementation of graphs with graph, vertex, and edge metadata. [code](https://github.com/JuliaGraphs/MetaGraphs.jl) / [docs](https://juliagraphs.github.io/MetaGraphs.jl/latest/)
-- **StaticGraphs.jl**: Memory-efficient immutable LightGraphs. [code](https://github.com/JuliaGraphs/StaticGraphs.jl)
+- **StaticGraphs.jl**: Memory-efficient immutable Graphs. [code](https://github.com/JuliaGraphs/StaticGraphs.jl)
 
 #### Input/Output:
 
 - **GraphIO.jl**: Graph IO functionality for various formats. [code](https://github.com/JuliaGraphs/GraphIO.jl)
-- **SNAPDatasets.jl**: LightGraphs.jl-formatted graph files taken from the SNAP Datasets collection. [code](https://github.com/JuliaGraphs/SNAPDatasets.jl)
+- **SNAPDatasets.jl**: Graphs.jl-formatted graph files taken from the SNAP Datasets collection. [code](https://github.com/JuliaGraphs/SNAPDatasets.jl)
 
 #### Visualization:
 
@@ -53,8 +53,8 @@ for using and studying graphs.
 
 #### Other:
 
-- **GraphDataFrameBridge.jl**: Tools for interoperability between DataFrame objects and LightGraphs and MetaGraphs objects. [code](https://github.com/JuliaGraphs/GraphDataFrameBridge.jl)
-- **Graph500.jl**:  Graph500 benchmarks written in Julia using LightGraphs. [code](https://github.com/JuliaGraphs/Graph500.jl)
+- **GraphDataFrameBridge.jl**: Tools for interoperability between DataFrame objects and Graphs and MetaGraphs objects. [code](https://github.com/JuliaGraphs/GraphDataFrameBridge.jl)
+- **Graph500.jl**:  Graph500 benchmarks written in Julia using Graphs. [code](https://github.com/JuliaGraphs/Graph500.jl)
 
 ## Plus some metadata repos including:
 
@@ -71,7 +71,7 @@ The current core maintainers are [Seth Bromberger](https://github.com/sbromberge
 
 Here are some packages that are related to the packages maintained by JuliaGraphs.
 
-## Packages that REQUIRE LightGraphs
+## Packages that REQUIRE Graphs
 
 @@tight-list
 - [BayesNets](https://github.com/sisl/BayesNets.jl)
