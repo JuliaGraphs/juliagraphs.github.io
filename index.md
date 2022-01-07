@@ -65,8 +65,6 @@ for using and studying graphs.
 
 The maintainers of the JuliaGraphs packages can be found at [Github People](https://github.com/orgs/JuliaGraphs/people). Each package has its own GitHub page listing the contributions of individuals. The maintainers of these packages appreciate every contribution.
 
-The current core maintainers are [Seth Bromberger](https://github.com/sbromberger), [James Fairbanks](https://github.com/jpfairbanks), and [Julio Hoffimann](https://github.com/juliohm).
-
 # Related Packages
 
 Here are some packages that are related to the packages maintained by JuliaGraphs.
