@@ -37,10 +37,12 @@ for using and studying graphs.
 
 #### More graph types:
 
-- **SimpleWeightedGraphs.jl**: An efficent implementation of simple graphs with weighted edges. [code](https://github.com/JuliaGraphs/SimpleWeightedGraphs.jl)
+- **SimpleWeightedGraphs.jl**: An efficient implementation of simple graphs with weighted edges. [code](https://github.com/JuliaGraphs/SimpleWeightedGraphs.jl)
 - **MetaGraphs.jl**: An implementation of graphs with graph, vertex, and edge metadata. [code](https://github.com/JuliaGraphs/MetaGraphs.jl) / [docs](https://juliagraphs.org/MetaGraphs.jl/dev/)
 - **MetaGraphsNext.jl**: A type-stable alternative to MetaGraphs.jl. [code](https://github.com/JuliaGraphs/MetaGraphsNext.jl) / [docs](https://juliagraphs.org/MetaGraphsNext.jl/dev/)
 - **StaticGraphs.jl**: Memory-efficient immutable Graphs. [code](https://github.com/JuliaGraphs/StaticGraphs.jl)
+- **MultilayerGraphs.jl**: Package for the creation, manipulation and analysis of the structure, dynamics and functions of multilayer graphs. [code](https://github.com/JuliaGraphs/MultilayerGraphs.jl) / [docs](https://juliagraphs.org/MultilayerGraphs.jl)
+
 
 #### Input/Output:
 
