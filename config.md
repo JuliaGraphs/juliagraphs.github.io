@@ -1,17 +1,23 @@
+<!--
+Add here global page variables to use throughout your website.
+-->
 +++
-author = "JuliaGraphs"
+author = "JuliaGraphs organization"
 mintoclevel = 2
 
-short_title = "JuliaGraphs: Graph packages for the Julia language"
-short_name = "JuliaGraphs - Graph analysis in Julia"
-global_title = "$(short_title) | JuliaGraphs - Graph analysis in Julia"
-description = """
-  JuliaGraphs provides code and support for graph and network representation in the Julia programming language.
-  """
-canonical_url = "https://juliagraphs.org"
-github_url    = "https://github.com/JuliaGraphs"
+# uncomment and adjust the following line if the expected base URL of your website is something like [www.thebase.com/yourproject/]
+# please do read the docs on deployment to avoid common issues: https://franklinjl.org/workflow/deploy/#deploying_your_website
+# prepath = "yourproject"
 
-generate_rss = false
+# Add here files or directories that should be ignored by Franklin, otherwise
+# these files might be copied and, if markdown, processed by Franklin which
+# you might not want. Indicate directories by ending the name with a `/`.
+# Base files such as LICENSE.md and README.md are ignored by default.
+ignore = ["node_modules/"]
 
-content_tag   = ""
+# RSS (the website_{title, descr, url} must be defined to get RSS)
+generate_rss = true
+website_title = "JuliaGraphs"
+website_descr = "Graph modeling and analysis packages for the Julia programming language"
+website_url   = "[Graph modeling and analysis packages for the Julia programming language](https://juliagraphs.org/)"
 +++

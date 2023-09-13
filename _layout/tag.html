@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/css/franklin.css">
-  <link rel="stylesheet" href="/css/basic.css">
+  {{ insert head_mixin.html }}
   <title>Tag: {{fill fd_tag}}</title>
 </head>
 <body>
   {{insert header.html}}
-  <div class="{{div_content}}">
+  <div class="franklin-content {{div_content}}">
     <h1>Tag: {{fill fd_tag}}</h1>
     {{taglist}}
     {{insert page_foot.html}}
