@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Build and Deploy (PR)
 on:
   pull_request:
 jobs:
