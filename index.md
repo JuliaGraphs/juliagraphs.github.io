@@ -1,127 +1,29 @@
 +++
-title = "JuliaGraphs&#58; Graph packages for the Julia language"
+title = "JuliaGraphs"
 +++
 
-# What is Julia?
-[Julia is a high-level, high-performance dynamic programming language for technical computing"](http://julialang.org).
-It is free (open source) and supports Windows, OSX, and Linux. It has a familiar
-syntax, works well with external libraries, is fast, and has advanced language
-features like metaprogramming that enable interesting possibilities for
-graph analysis and modeling software.
+# JuliaGraphs
 
+## Presentation
 
-# What is JuliaGraphs?
-JuliaGraphs is an organization that brings together packages written in Julia
-for using and studying graphs.
+[Graphs](https://en.wikipedia.org/wiki/Graph_theory) are mathematical structures that model sets of vertices connected by edges.
+They appear everywhere in our daily lives, from transportation networks to molecular structures or social media.
 
-<!-- - **Overview**: [presentation]() and [workshop](https://www.youtube.com/watch?v=nnL7yLMVu6c) from JuliaCon 2015 -->
-@@tight-list
-- **Code**: [github.com/JuliaGraphs](http://github.com/JuliaGraphs)
-- **Forum**: [Discourse](https://discourse.julialang.org)
-@@
+[Julia](http://julialang.org) is a high-level, high-performance programming language designed for technical computing.
+It is free (open source), has an accessible syntax, and supports Windows, OSX, and Linux.
 
-# Overview of Packages
+[JuliaGraphs](https://github.com/JuliaGraphs) is a GitHub organization run by volunteers, which tries to coordinate and foster the development of graph algorithms in Julia.
+You can check out our [core packages](./packages), find out what the broader [ecosystem](./ecosystem) does with them, or watch the talks in our [gallery](./gallery).
 
-## JuliaGraphs's packages include:
+## Finding support
 
-#### Main package:
+For general usage questions, please use the [Julia Discourse forum](https://discourse.julialang.org/) and tag your post with `#graphs`.
 
-- **Graphs.jl**: An optimized lightweight graphs package for Julia. Implementations in Julia of standard Graphs algorithms and analytics. [code](https://github.com/JuliaGraphs/Graphs.jl) / [docs](https://juliagraphs.org/Graphs.jl/dev/)
+If you found a bug in one of our packages, or if you want to suggest a feature, feel free to open an issue on GitHub.
+Remember that open source development is not our main job, so your request may take a while to process.
+We thank you for your patience!
 
-#### More Algorithms:
+## Contributors
 
-- **LightGraphsExtras.jl**: Additional functionality for Graphs.jl. [code](https://github.com/JuliaGraphs/LightGraphsExtras.jl)
-- **GraphsFlows.jl**: Flow algorithms on top of Graphs.jl. [code](https://github.com/JuliaGraphs/GraphsFlows.jl) / [docs](https://juliagraphs.org/GraphsFlows.jl/dev/)
-- **GraphsMatching.jl**: Matching algorithms for Graphs.jl. [code](https://github.com/JuliaGraphs/GraphsMatching.jl)
-- **CommunityDetection.jl**: Community Detection algorithms for Graphs.jl. [code](https://github.com/JuliaGraphs/CommunityDetection.jl)
-
-#### More graph types:
-
-- **SimpleWeightedGraphs.jl**: An efficient implementation of simple graphs with weighted edges. [code](https://github.com/JuliaGraphs/SimpleWeightedGraphs.jl)
-- **MetaGraphs.jl**: An implementation of graphs with graph, vertex, and edge metadata. [code](https://github.com/JuliaGraphs/MetaGraphs.jl) / [docs](https://juliagraphs.org/MetaGraphs.jl/dev/)
-- **MetaGraphsNext.jl**: A type-stable alternative to MetaGraphs.jl. [code](https://github.com/JuliaGraphs/MetaGraphsNext.jl) / [docs](https://juliagraphs.org/MetaGraphsNext.jl/dev/)
-- **StaticGraphs.jl**: Memory-efficient immutable Graphs. [code](https://github.com/JuliaGraphs/StaticGraphs.jl)
-- **MultilayerGraphs.jl**: Package for the creation, manipulation and analysis of the structure, dynamics and functions of multilayer graphs. [code](https://github.com/JuliaGraphs/MultilayerGraphs.jl) / [docs](https://juliagraphs.org/MultilayerGraphs.jl)
-
-
-#### Input/Output:
-
-- **GraphIO.jl**: Graph IO functionality for various formats. [code](https://github.com/JuliaGraphs/GraphIO.jl)
-- **SNAPDatasets.jl**: Graphs.jl-formatted graph files taken from the SNAP Datasets collection. [code](https://github.com/JuliaGraphs/SNAPDatasets.jl)
-
-#### Visualization:
-
-- **GraphPlot.jl**: Graph visualization for Julia. [code](https://github.com/JuliaGraphs/GraphPlot.jl)
-- **NetworkLayout.jl**: Layout algorithms for graphs and trees in pure Julia. [code](https://github.com/JuliaGraphs/NetworkLayout.jl)
-
-#### Other:
-
-- **GraphDataFrameBridge.jl**: Tools for interoperability between DataFrame objects and Graphs and MetaGraphs objects. [code](https://github.com/JuliaGraphs/GraphDataFrameBridge.jl)
-- **Graph500.jl**:  Graph500 benchmarks written in Julia using Graphs. [code](https://github.com/JuliaGraphs/Graph500.jl)
-
-## Plus some metadata repos including:
-
-- **JuliaGraphs-meta**: Forum for JuliaGraphs discussion - issues only. [code](https://github.com/JuliaGraphs/JuliaGraphs-meta)
-- **JuliaGraphs.github.io**: Page for maintaining the site. Report typos or website enhancements here. [code](https://github.com/JuliaGraphs/JuliaGraphs.github.io)
-
-# Contributors
-
-The maintainers of the JuliaGraphs packages can be found at [Github People](https://github.com/orgs/JuliaGraphs/people). Each package has its own GitHub page listing the contributions of individuals. The maintainers of these packages appreciate every contribution.
-
-# Related Packages
-
-Here are some packages that are related to the packages maintained by JuliaGraphs.
-
-## Packages that REQUIRE Graphs
-
-@@tight-list
-- [BayesNets](https://github.com/sisl/BayesNets.jl)
-- [Bio](https://github.com/BioJulia/Bio.jl)
-- [CausalInference](https://github.com/mschauer/CausalInference.jl)
-- [GraphGLRM](https://github.com/mihirparadkar/GraphGLRM.jl)
-- [GraphPlot](https://github.com/JuliaGraphs/GraphPlot.jl)
-- [ImageQuilting](https://github.com/juliohm/ImageQuilting.jl)
-- [LightGraphsExtras](https://github.com/JuliaGraphs/LightGraphsExtras.jl)
-- [Metis](https://github.com/JuliaSparse/Metis.jl)
-- [NetworkViz](https://github.com/abhijithanilkumar/NetworkViz.jl)
-- [QuantEcon](https://github.com/QuantEcon/QuantEcon.jl)
-- [RobustShortestPath](https://github.com/chkwon/RobustShortestPath.jl)
-- [TikzGraphs](https://github.com/sisl/TikzGraphs.jl)
-- [TrafficAssignment](https://github.com/chkwon/TrafficAssignment.jl)
-- [TreeView](https://github.com/dpsanders/TreeView.jl)
-@@
-
-# Gallery
-## JuliaCon 2020 Talks
-
-###  Building and Analyzing Graphs at Scale (Workshop)
-
-~~~
-<iframe width="560" height="315" src="https://www.youtube.com/embed/K3z0kUOBy2Y" frameborder="0" allowfullscreen></iframe>
-~~~
-
-###  Lessons learned on trait-based descriptions of graphs
-
-~~~
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qhAe1PuWjRQ" frameborder="0" allowfullscreen></iframe>
-~~~
-
-## JuliaCon 2018 LightGraphs.jl Talks
-
-### The JuliaGraphs ecosystem: build fast - don't break things
-
-~~~
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OZuQoxTPoyM" frameborder="0" allowfullscreen></iframe>
-~~~
-
-### Graph Interfaces: bespoke graphs for every occasion
-
-~~~
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OD-BSn4FZ2A" frameborder="0" allowfullscreen></iframe>
-~~~
-
-## JuliaCon 2017 LightGraphs.jl Talks
-
-~~~
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MFD-qmApXl8" frameborder="0" allowfullscreen></iframe>
-~~~
+The maintainers of the JuliaGraphs organization are listed [here](https://github.com/orgs/JuliaGraphs/people).
+Each package also has its own GitHub repository listing individual contributions.
