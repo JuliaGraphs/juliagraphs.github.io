@@ -1,8 +1,8 @@
 +++
-title = "Core packages"
+title = "Packages"
 +++
 
-# Core packages
+# Packages
 
 ## Algorithms and graph types
 
