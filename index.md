@@ -13,9 +13,11 @@ They appear everywhere in our daily lives, from transportation networks to molec
 It is free (open source), has an accessible syntax, and supports Windows, OSX, and Linux.
 
 [JuliaGraphs](https://github.com/JuliaGraphs) is a GitHub organization run by volunteers, which tries to coordinate and foster the development of graph algorithms in Julia.
-You can check out our [core packages](./packages), find out what the broader [ecosystem](./ecosystem) does with them, or watch the talks in our [gallery](./gallery).
 
-## Finding support
+## Getting started
+
+The core package in our organization is called Graphs.jl, take a look at its [documentation](https://juliagraphs.org/Graphs.jl/) to see what you can achieve with it.
+You can also check out our other [packages](./packages), find out what the broader [ecosystem](./ecosystem) does with them, or watch the talks in our [gallery](./gallery).
 
 For general usage questions, please use the [Julia Discourse forum](https://discourse.julialang.org/) and tag your post with `#graphs`.
 
