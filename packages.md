@@ -24,6 +24,7 @@ Many of the other packages we list rely only on this interface, so as to be comp
 - [GraphsFlows.jl](https://github.com/JuliaGraphs/GraphsFlows.jl): Flow optimization algorithms.
 - [GraphsMatching.jl](https://github.com/JuliaGraphs/GraphsMatching.jl): Matching optimization algorithms.
 - [CommunityDetection.jl](https://github.com/JuliaGraphs/CommunityDetection.jl): Community detection algorithms.
+- [GraphsOptim.jl](https://github.com/JuliaGraphs/GraphsOptim.jl): Graph optimization algorithms that rely on mathematical programming.
 
 ## Interfaces and visualization
 
